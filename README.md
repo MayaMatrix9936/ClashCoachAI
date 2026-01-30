@@ -33,6 +33,6 @@ ClashCoach AI is a Clash of Clans tactical assistant that analyzes your army and
 
 ## Devpost Submission Checklist
 - **Project page:** https://gemini3.devpost.com/
-- **Public demo link:** Add your deployed link (or AI Studio app link if used)
+- **Public demo link:** https://funny-caramel-0fa6c0.netlify.app/
 - **Public code repo:** https://github.com/MayaMatrix9936/ClashCoachAI
 - **Demo video:** ~3 minutes
