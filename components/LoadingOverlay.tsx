@@ -10,20 +10,21 @@ const ANALYSIS_STEPS = [
 ];
 
 const TERMINAL_LOGS = [
-  "Initializing neural vision models...",
-  "Segmenting defense structures...",
-  "Calculating inferno tower range...",
-  "Analyzing wall patterns...",
-  "Evaluating hero levels...",
-  "Simulating pathfinding algorithms...",
-  "Checking for possible trap locations...",
-  "Optimizing spell drop coordinates...",
-  "Generating tactical overlays...",
-  "Refining final instruction set...",
-  "Synthesizing deployment vectors...",
-  "Allocating GPU for visual rendering...",
-  "Validating elixir costs...",
-  "Simulating defense dps output..."
+  "Scanning Town Hall district...",
+  "Locating Eagle Artillery...",
+  "Mapping Inferno Tower coverage...",
+  "Estimating Clan Castle pull range...",
+  "Checking X-Bow set modes...",
+  "Reading wall layer strength...",
+  "Counting Wizard Towers...",
+  "Reviewing air defense positions...",
+  "Parsing hero availability...",
+  "Estimating spell value zones...",
+  "Detecting trap corridors...",
+  "Simulating funnel integrity...",
+  "Evaluating anti‑2 star layout...",
+  "Checking scattershot angles...",
+  "Measuring core DPS density..."
 ];
 
 interface LoadingOverlayProps {
@@ -42,7 +43,7 @@ const LoadingOverlay: React.FC<LoadingOverlayProps> = ({ currentStep }) => {
         if (newLogs.length > 5) return newLogs.slice(newLogs.length - 5);
         return newLogs;
       });
-    }, 1500); // Slowed down log updates slightly to match longer durations
+  }, 1500);
 
     return () => clearInterval(interval);
   }, []);
